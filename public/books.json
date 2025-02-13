@@ -1,0 +1,204 @@
+
+    [
+      {
+        "_id":1,
+        "title": "The Chronicles of Narnia",
+        "description":"The story follows the four British Pevensie siblings, who are evacuated during the Blitz to the countryside, where they find a wardrobe that leads to the fantasy world of Narnia.",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"bookcover.jpg",
+        "oldPrice": 500,
+        "newPrice":350
+      },
+      {
+        "_id":2,
+        "title": "Harry Potter and the Socerer's Stone",
+        "description":"This is the story where harry founds out how his parents were killed and about Hogwarts, School of Witchcraft and Wizardry",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"book2.jpg",
+        "oldPrice": 600,
+        "newPrice":300
+      },
+      {
+        "_id":3,
+        "title": "Harry Potter and the Goblet of Fire",
+        "description":"This is where Harry learns about his enemies",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"book3.jpg",
+        "oldPrice": 700,
+        "newPrice":400
+      },
+      {
+        "_id":4,
+        "title": "Harry Potter and the Deathly Hallows Part1",
+        "description":"In this book Harry learns about the Deathly Hallows",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"harry potter.jpg",
+        "oldPrice": 500,
+        "newPrice":400
+      },
+      {
+        "_id":5,
+        "title": "Harry Potter and the Deathly Hallows Part2",
+        "description":"This is the part of the book where he defeats the people causing a threat to Hogwarts",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"harry potter 1.jpg",
+        "oldPrice": 450,
+        "newPrice":250
+      },
+      {
+        "_id":6,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "description":"In this book Harry learns about the identity of Sirius Black",
+        "category":"magic",
+        "trending":true,
+        "coverImage":"harry potter 2.jpg",
+        "oldPrice": 500,
+        "newPrice":300
+      },
+      {
+        "_id":7,
+        "title": "The Power of Your Subconscious Mind",
+        "description":"This book teaches you how to use your ubconscious mind for productivity",
+        "category":"self-help",
+        "trending":true,
+        "coverImage":"mind.jpg",
+        "oldPrice": 200,
+        "newPrice":150
+      },
+      {
+        "_id":8,
+        "title": "Rich Dad Poor Dad",
+        "description":"This book teaches you how to become rich, or how to better save your money",
+        "category":"finance",
+        "trending":true,
+        "coverImage":"rich dad.jpg",
+        "oldPrice": 200,
+        "newPrice":100
+      },
+      {
+        "_id":9,
+        "title": "Do Epic Shit",
+        "description":"This book is a compelling guide that encourages us to push boundaries, shatter limitations, and achieve greatness in every aspect of our lives.",
+        "category":"self-help",
+        "trending":true,
+        "coverImage":"epic shit.jpg",
+        "oldPrice": 250,
+        "newPrice":150
+      },
+      {
+        "_id":10,
+        "title": "Goosebumps SLAPPY BEWARE!!",
+        "description":"Slappy the ventriloquist's dummy has only one mission in his tiny, deranged mind: do evil every day, all day",
+        "category":"horror",
+        "trending":true,
+        "coverImage":"goosebumps.jpeg",
+        "oldPrice": 145,
+        "newPrice":125
+      },
+      {
+        "_id":11,
+        "title": "Financial freedom",
+        "description":"Financial Freedom is a comprehensive guide to building tangible wealth that you can deploy immediately to give yourself real options in life.",
+        "category":"finance",
+        "trending":true,
+        "coverImage":"financial-freedom.jpg",
+        "oldPrice": 200,
+        "newPrice": 100
+      },
+      {
+        "_id":12,
+        "title":"Piano for Beginners",
+        "description":"A step by step guide on how to play the Piano like a Pro",
+        "category":"learning",
+        "trending":true,
+        "coverImage":"piano-for-beginners.jpeg",
+        "oldPrice":150,
+        "newPrice":100
+      },
+      {
+        "_id":13,
+        "title":"ANIMORPHS,The Solution",
+        "description":"This book is an exciting series for young adult readers about five teens who are given the power to 'morph' into any animal they touch and then to absorb its DNA.",
+        "category":"fiction",
+        "trending":true,
+        "coverImage":"animorphs.jpg",
+        "oldPrice":400,
+        "newPrice":350
+      },
+      {
+        "_id":14,
+        "title":"Deeper into Dreams",
+        "description":"This is an autobiography of the author Noell Morrison",
+        "category":"AutoBio",
+        "trending":true,
+        "coverImage":"autobio.png",
+        "oldPrice":200,
+        "newPrice":150
+      },
+      {
+        "_id":15,
+        "title":"The Amazing Spiderman",
+        "description":"This is a comic of Marvel's beloved superhero SpiderMan AKA Peter Parker",
+        "category":"sci-fi",
+        "trending":true,
+        "coverImage":"comic.jpg",
+        "oldPrice":90,
+        "newPrice":80
+      },
+      {
+        "_id":16,
+        "title":"A Whisper in the Dark",
+        "description":"The stories in this volume display dramatic intensity and thrilling, suspenseful plots that show Alcott to be a complex and passionate writer.",
+        "category":"horror",
+        "trending":true,
+        "coverImage":"dark.jpeg",
+        "oldPrice":120,
+        "newPrice":100
+      },
+      {
+        "_id":17,
+        "title":"Diary of a Wimpy Kid",
+        "description":"Diary of a Wimpy Kid is a children's book series by Jeff Kinney about Greg Heffley, a middle schooler who records his daily life in a diary:",
+        "category":"fiction",
+        "trending":true,
+        "coverImage":"funny.jpg",
+        "oldPrice":270,
+        "newPrice":130
+      },
+      {
+        "_id":18,
+        "title":"Those Eyes",
+        "description":"This is one damn good horror book",
+        "category":"horror",
+        "trending":true,
+        "coverImage":"horror.jpeg",
+        "oldPrice":290,
+        "newPrice":180
+      },
+      {
+        "_id":19,
+        "title":"Find some Joy Dammit",
+        "description":"This is a book which will teach you how to be happy",
+        "category":"self-help",
+        "trending":true,
+        "coverImage":"selfhelp.jpg",
+        "oldPrice":400,
+        "newPrice":200
+      },
+      {
+        "_id":20,
+        "title":"Celestial Bond",
+        "description":"This is a book depicting a love story",
+        "category":"romance",
+        "trending":true,
+        "coverImage":"open.png",
+        "oldPrice":400,
+        "newPrice":200
+      }
+
+    ]
