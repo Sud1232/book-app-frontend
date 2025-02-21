@@ -13,7 +13,7 @@ const baseQuery = fetchBaseQuery({
   }
 })
 
-const booksApi = createApi({  
+const booksApi = createApi({
   reducerPath: 'bookApi',
   baseQuery,
   tagTypes: ['Books'],
@@ -22,6 +22,7 @@ const booksApi = createApi({
       query: () => "/",
       providesTags: ["Books"]
     }),
+
     fetchBookById: builder.query({
       query: (id) => `/${id}`,
       providesTags: (results, error, id) => [{ type: "Books", id }],
@@ -53,7 +54,9 @@ const booksApi = createApi({
       invalidatesTags: ["Books"]
     })
   })
+
 })
+
 
 export const { useFetchAllBooksQuery, useFetchBookByIdQuery, useAddBookMutation, useUpdateBookMutation, useDeleteBookMutation } = booksApi;
 export default booksApi;

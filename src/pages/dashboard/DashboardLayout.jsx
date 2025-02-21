@@ -1,9 +1,11 @@
 import axios from 'axios';
 import React, { useEffect } from 'react'
 import Loading from '../../components/Loading';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { HiViewGridAdd } from 'react-icons/hi';
+import { MdIncompleteCircle, MdOutlineManageHistory } from 'react-icons/md';
 
-const DashboardLayout = () => {
+const DashboardLayout = (data) => {
 
 
   const handleLogout = () => {
@@ -208,7 +210,7 @@ const DashboardLayout = () => {
                 </button>
 
               </div>
-              <div className="overflow-y-auto" style="max-height: 24rem;">
+              <div className="overflow-y-auto" >
                 <ul className="p-6 space-y-6">
                   <li className="flex items-center">
                     <div className="h-10 w-10 mr-3 bg-gray-100 rounded-full overflow-hidden">
